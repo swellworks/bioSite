@@ -1,0 +1,23 @@
+XX Just this once, Google examples of jpg, png and gif images and save the three images to a folder called “images” in your EX4 folder. No animated gifs please. Hint: for the gif, look for a logo.
+
+XX Add the three images below the link you added last week, but above the “back to top” link.
+
+XX Use one figure tag around all three images and add figure captions to each image. Be creative. Also, make sure your images all have alt info.
+
+XX Make all the images the same width. Don’t stretch them horizontally or vertically.
+
+Use the Oswald font stack with a weight of 400 and size from your scale for the captions.
+
+XX Color palette:
+
+Color Palette
+
+XX Using rgba, add the second color in the palette (247, 112, 34) color to the background of the entire page. Make the opacity of the background 20 percent.
+
+XX Using rgba, add the fourth color (185, 63, 8) to the h1 and h2 tags.
+
+XX Apply 100% of the background color to the sentence class.
+
+XX Fill the Top Ten box with a color from the palette and reverse the type color to white using hex color shorthand.
+
+XX Remove the red border color from the Top Ten box and change the red border color to a color from the palette for the Five Things box.

@@ -1,0 +1,200 @@
+/*
+-----------------------------------------------
+Author:   Perry Fulfs
+Date:     09 APR 2020
+
+https://www.modularscale.com/?1.25&em&1.5
+16px @ 1:1.25
+190px @ 1:1.25
+61.035px-3.815em
+48.828px-3.052em
+39.063px-2.441em
+31.25px-1.953em
+25px-1.563em
+20px-1.25em
+
+font-family: 'Roboto Slab', serif; - 400;600
+font-family: 'Work Sans', sans-serif; - 300;400;500
+
+ltblue: 63cbe3
+dkblue: 27636e
+orange: e36342
+relish: c44330
+cream: f3d2b3
+yellow: f0b350
+-----------------------------------------------
+*/
+
+body {
+  font-family: 'Work Sans', Verdana, Arial, sans-serif;
+}
+p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4em;
+}
+h1, h2, h3 {
+  color: #333;
+  font-family: 'Roboto Slab', Georgia, "Times New Roman", serif;
+}
+h1 {
+  font-size: 3.052em;
+  font-weight: 600;
+  margin: 0 0 .5em 0;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 1.953em;
+  font-weight: 400;
+  margin: 0 0 .3em 0;
+}
+h3 {
+  font-size: 1.563em;
+  font-weight: 400;
+  margin: 0 0 .3em 0;
+}
+
+a:link {
+  color: #c44330;
+}
+a:visited {
+  color: #63cbe3;
+}
+a:hover {
+  color: #e36342;
+}
+a:active {
+  color: #63cbe3;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
+
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+ol li {
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* -- colors -- */
+.col-box-inline {
+  display: inline;
+}
+.col-Box-1 {
+  background-color: #63cbe3;
+  height: 100px;
+  width: 100px;
+}
+
+/* -- buttons -- */
+.btn1lg {
+  background-color: #e36342; /* red */
+  border: none;
+  border-radius: 10px;
+  color: white;
+  display: inline-block;
+  padding: 14px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.25em;
+}
+.btn1md {
+  background-color: #e36342; /* red */
+  border: none;
+  border-radius: 10px;
+  color: white;
+  display: inline-block;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+.btn1sm {
+  background-color: #e36342; /* red */
+  border: none;
+  border-radius: 10px;
+  color: white;
+  display: inline-block;
+  padding: 10px 18px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 0.8em;
+}
+
+.intro-content {
+  background-color: #f0b350; /* yellow */
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+.intro-word {
+  color: #e36342;
+  font-size: 1.25em;
+  font-weight: 500;
+}
+
+/* -- molecule form -- */
+.form-bg {
+  background-color: #f0b350;
+  border: 2px solid #c44330;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 20px 20px 30px 20px;
+  width: 30%;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  width: 100%;
+  background-color: #e36342; /* red */
+  border: none;
+  border-radius: 10px;
+  color: white;
+  display: inline-block;
+  margin: 10px 0 0 0;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+input[type=submit]:hover {
+  background-color: #c44330;
+}
+
+/* -- footer -- */
+.foot-area {
+  background-color: #666;
+  color: #fff;
+  margin: 20px 0;
+  padding: 10px;
+}
