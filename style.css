@@ -248,6 +248,44 @@ input[type=submit]:hover {
   background-color: #c44330;
 }
 
+/* -- gallery -- */
+
+.gallery-cont {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 1rem;
+}
+.responsive-image {
+  max-width: 100%;
+}
+@media screen and (min-width: 600px) {
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+.cell {
+    width: 50%;
+}
+}
+@media screen and (min-width: 1000px) {
+  .cell {
+    width: calc(100% / 4);
+  }
+}
+@media screen and (min-width: 600px) {
+  .cell {
+    width: calc(50% - 1rem);
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .cell {
+    width: calc(25% - 1rem);
+  }
+}
+
+
 /* -- footer -- */
 .foot-area {
   background-color: #27636e;
