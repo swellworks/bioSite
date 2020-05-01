@@ -1,5 +1,15 @@
 Notes for bioSite:
 
+Added fixed bg image
+Sticky footer
+smart font stacks
+Is your markup semantic - yes
+Are you commenting where necessary - yes, making comments in CSS
+Are you testing any links - yes, links are working to all pages
+Are your images loading correctly - yes, working on doing a better more interesting gallery - need to get more photos
+
+
+
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600&family=Work+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 
 font-family: 'Roboto Slab', serif;

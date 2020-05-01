@@ -26,6 +26,9 @@ yellow: f0b350
 */
 
 body {
+  background-image: url("images/page-bg.jpg");
+  background-repeat: repeat;
+  background-attachment: fixed;
   background-color: #f0b350;
   font-family: 'Work Sans', Verdana, Arial, sans-serif;
 }
@@ -125,7 +128,6 @@ ol li {
 }
 
 #main-cont {
-  background-color: #f0b350;
 }
 
 /* -- Flexbox -- */
@@ -157,14 +159,14 @@ ol li {
   border-radius: 5px;
   float: left;
   margin: 0 20px 20px 0;
-  width: 225px;
+  max-width: 225px;
 }
 .flex-img-right-2 {
   border: 2px solid #e36342;
   border-radius: 5px;
   float: right;
   margin: 0 0 20px 20px;
-  width: 275px;
+  max-width: 275px;
 }
 
 /* -- buttons -- */
@@ -285,11 +287,58 @@ input[type=submit]:hover {
   }
 }
 
+/* -- resp images -- */
+.res-img{
+  width: 100%;
+  height: auto;
+}
+
+/* -- resp images TEST -- */
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
 
 /* -- footer -- */
 .foot-area {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   background-color: #27636e;
   color: #fff;
-  margin: 20px 0;
+  margin: 20px 0 0 0;
   padding: 10px;
+  z-index: 1;
 }
