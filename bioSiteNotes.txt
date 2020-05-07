@@ -1,24 +1,2 @@
-Notes for bioSite:
-
-Added fixed bg image
-Sticky footer
-smart font stacks
-Is your markup semantic - yes
-Are you commenting where necessary - yes, making comments in CSS
-Are you testing any links - yes, links are working to all pages
-Are your images loading correctly - yes, working on doing a better more interesting gallery - need to get more photos
-
-
-
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600&family=Work+Sans:wght@300;400;500&display=swap" rel="stylesheet">
-
-font-family: 'Roboto Slab', serif;
-font-family: 'Work Sans', sans-serif;
-
-ltblue: 63cbe3
-dkblue: 27636e
-red: c44330
-orange: e36342
-yellow: f0b350
-cream: f3d2b3
+part of how we see ourselves comes from our perception of how others see us 
 
