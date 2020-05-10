@@ -56,13 +56,13 @@ h3 {
 }
 
 nav a:link {
-  color: #e36342;
+  color: #63cbe3;
 }
 nav a:visited {
   color: #63cbe3;
 }
 nav a:hover {
-  color: #c44330;
+  color: #f0b350;
 }
 nav a:active {
   color: #63cbe3;
@@ -168,7 +168,7 @@ ol li {
 
 /* -- buttons -- */
 .btn1lg {
-  background-color: #e36342; /* red */
+  background-color: #27636e; /* red */
   border: none;
   border-radius: 10px;
   color: white;
@@ -179,7 +179,7 @@ ol li {
   font-size: 1.25em;
 }
 .btn1md {
-  background-color: #e36342; /* red */
+  background-color: #27636e; /* red */
   border: none;
   border-radius: 10px;
   color: white;
@@ -190,7 +190,7 @@ ol li {
   font-size: 16px;
 }
 .btn1sm {
-  background-color: #e36342; /* red */
+  background-color: #27636e; /* red */
   border: none;
   border-radius: 10px;
   color: white;
