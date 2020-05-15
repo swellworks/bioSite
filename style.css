@@ -41,7 +41,7 @@ h1, h2, h3 {
 h1 {
   font-size: 3.052em;
   font-weight: 600;
-  margin: 0 0 .3em 0;
+  margin: 0 0 .2em 0;
   text-transform: uppercase;
 }
 h2 {
@@ -168,7 +168,7 @@ ol li {
 
 /* -- buttons -- */
 .btn1lg {
-  background-color: #27636e; /* red */
+  background-color: #27636e;
   border: none;
   border-radius: 10px;
   color: white;
@@ -179,7 +179,7 @@ ol li {
   font-size: 1.25em;
 }
 .btn1md {
-  background-color: #27636e; /* red */
+  background-color: #27636e;
   border: none;
   border-radius: 10px;
   color: white;
@@ -190,7 +190,7 @@ ol li {
   font-size: 16px;
 }
 .btn1sm {
-  background-color: #27636e; /* red */
+  background-color: #27636e;
   border: none;
   border-radius: 10px;
   color: white;
